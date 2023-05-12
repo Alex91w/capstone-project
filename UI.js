@@ -34,8 +34,8 @@ export class UI {
             this.title = 'Are you scared?';
             this.text = 'Be brave next time, they don\'t bite. Perhaps...';
         } else if (this.game.score > 50 && this.game.lives > 0){
-            this.title = 'Boo-ya';
-            this.text = 'What are creatures of the night afraid of? YOU!!!'
+            this.title = 'Woohoo, you are good!';
+            this.text = 'Creepy Crawly Hunter, that is you!'
         }
         // game over
         if (this.game.gameOver){
