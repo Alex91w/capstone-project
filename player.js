@@ -1,6 +1,6 @@
 import { Sitting, Running, Jumping, Falling, Rolling, Diving, Hit } from "./playerStates.js";
 import { CollisionAnimation } from "./collisionAnimation.js";
-import { FloatingMessage } from "../game/floatingMessages.js";
+import { FloatingMessage } from "./floatingMessages.js";
 
 export class Player {
     constructor(game){
